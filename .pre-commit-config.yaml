@@ -1,0 +1,40 @@
+# Run with prek (https://prek.j178.dev/) or the classic pre-commit CLI.
+# Every hook also carries the "manual" stage, so
+# "prek run --all-files --hook-stage manual" runs everything at once.
+default_install_hook_types:
+  - pre-commit
+  - commit-msg
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: ^LICENSE$
+        stages: [pre-commit, manual]
+      - id: end-of-file-fixer
+        stages: [pre-commit, manual]
+      - id: check-yaml
+        stages: [pre-commit, manual]
+      - id: check-added-large-files
+        stages: [pre-commit, manual]
+      - id: check-merge-conflict
+        stages: [pre-commit, manual]
+      - id: mixed-line-ending
+        stages: [pre-commit, manual]
+      - id: detect-private-key
+        stages: [pre-commit, manual]
+
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.24.0
+    hooks:
+      - id: markdownlint-cli2
+        exclude: ^(LICENSE|CODE_OF_CONDUCT\.md)$
+        stages: [pre-commit, manual]
+
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v4.4.0
+    hooks:
+      # Needs the commit-message file, so no "manual" stage.
+      - id: conventional-pre-commit
+        stages: [commit-msg]

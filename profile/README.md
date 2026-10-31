@@ -30,14 +30,18 @@ template-sync come from the same place:
 
 ## License
 
-Products in this org are licensed under Apache-2.0. The templates they
-build on stay GPL-3.0-only in `craftainer`.
+The craftainer templates stay GPL-3.0-only. Products in this org that
+are built from them are released under Apache-2.0 by the templates' sole
+copyright holder.
 
 ## Contributing and security
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md), the
-[Code of Conduct](../CODE_OF_CONDUCT.md) and
-[SECURITY.md](../SECURITY.md). Report vulnerabilities privately, never in
-a public issue.
+See [CONTRIBUTING.md][contributing], the [Code of Conduct][coc] and
+[SECURITY.md][security]. Report vulnerabilities privately, never in a
+public issue.
 
 > **Built AI-assisted.** These repos are developed with Claude Code.
+
+[contributing]: https://github.com/craftainer-labs/.github/blob/main/CONTRIBUTING.md
+[coc]: https://github.com/craftainer-labs/.github/blob/main/CODE_OF_CONDUCT.md
+[security]: https://github.com/craftainer-labs/.github/blob/main/SECURITY.md

@@ -5,11 +5,11 @@ every repository in the org unless a repository states its own.
 
 ## Before you start
 
-- Read the [Code of Conduct](CODE_OF_CONDUCT.md).
+- Read the [Code of Conduct][coc].
 - For a bug or a feature idea, open an issue first and describe the
   problem, so the approach can be agreed before you write code.
 - For a security issue, do not open an issue. Follow
-  [SECURITY.md](SECURITY.md).
+  [SECURITY.md][security].
 
 ## Making a change
 
@@ -25,5 +25,8 @@ every repository in the org unless a repository states its own.
 ## License
 
 By contributing, you agree that your contribution is licensed under the
-[Apache License 2.0](LICENSE), the license of the product you contribute
-to.
+[Apache License 2.0][license], the license of the products in this org.
+
+[coc]: https://github.com/craftainer-labs/.github/blob/main/CODE_OF_CONDUCT.md
+[security]: https://github.com/craftainer-labs/.github/blob/main/SECURITY.md
+[license]: https://github.com/craftainer-labs/.github/blob/main/LICENSE

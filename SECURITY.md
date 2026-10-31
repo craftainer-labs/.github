@@ -3,9 +3,10 @@
 ## Reporting a vulnerability
 
 Report vulnerabilities privately through GitHub private vulnerability
-reporting. Open the affected repository, go to its **Security** tab and
-choose **Report a vulnerability**. If you are unsure which repository is
-affected, report it on
+reporting, which is enabled on every craftainer-labs repository. Open
+the affected repository, go to its **Security** tab and choose **Report
+a vulnerability**. If you are unsure which repository is affected,
+report it on
 [craftainer-labs/.github](https://github.com/craftainer-labs/.github).
 
 Please do not open a public issue, pull request or discussion for a

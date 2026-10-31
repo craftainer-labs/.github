@@ -1,6 +1,10 @@
 # Run with prek (https://prek.j178.dev/) or the classic pre-commit CLI.
 # Every hook also carries the "manual" stage, so
 # "prek run --all-files --hook-stage manual" runs everything at once.
+default_install_hook_types:
+  - pre-commit
+  - commit-msg
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
